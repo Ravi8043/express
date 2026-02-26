@@ -14,10 +14,14 @@
   "type": "commonjs",
   "dependencies": {
     "@prisma/client": "^5.22.0",
-    "express": "^5.2.1"
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
   },
   "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
     "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^25.3.0",
     "prisma": "^5.22.0",
     "ts-node-dev": "^2.0.0",
